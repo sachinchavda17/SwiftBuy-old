@@ -2,11 +2,11 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { createOrder } from './orderAPI';
 
 const initialState = {
-  orders:[],
+  orders: [],
   status: 'idle',
   currentOrder: null,
 };
-// we may need more info of current order
+//we may need more info of current order
 
 export const createOrderAsync = createAsyncThunk(
   'order/createOrder',

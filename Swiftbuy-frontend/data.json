@@ -2337,60 +2337,19 @@
   "users": [
     {
       "email": "sachin@gmail.com",
-      "password": "123",
+      "password": "Sachin@123",
       "addresses": [
         {
-          "name": "Sachin",
+          "name": "Sachin ",
           "email": "sachin@gmail.com",
-          "phone": "1234567890",
-          "street": "94 sarkhej",
-          "city": "Ahmedabad",
-          "State": "Gujarat",
+          "phone": "12312323232",
+          "street": "dholka road",
+          "city": "ahmedabad",
+          "state": "GUJARAT",
           "pinCode": "382210"
-        },
-        {
-          "name": "Chavda",
-          "email": "sachin@gmail.com",
-          "phone": "1234567890",
-          "street": "Sarkhej",
-          "city": "Gandhinagar",
-          "State": "Gujarat",
-          "pinCode": "123489"
         }
       ],
       "id": 1
-    },
-    {
-      "email": "demo@gmail.com",
-      "password": "Demo@123",
-      "addresses": [
-        {
-          "name": "Demo",
-          "email": "demo@gmail.com",
-          "phone": "12312323232",
-          "street": "TO. JAMBU TA. LIMBDI DIST. SURENDRANAGAR",
-          "city": "Surendranagar",
-          "State": "Gujarat",
-          "pinCode": "363421"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "email": "meet@gmail.com",
-      "password": "Meet@123",
-      "addresses": [
-        {
-          "name": "Meet Chavda",
-          "email": "meet@gmail.com",
-          "phone": "9173095336",
-          "street": "Sarkhej",
-          "city": "ahmedabad",
-          "State": "GUJARAT",
-          "pinCode": "382210"
-        }
-      ],
-      "id": 3
     }
   ],
   "cart": [],
@@ -2415,339 +2374,39 @@
           ],
           "quantity": 1,
           "user": 1,
-          "id": 3
+          "id": 1
         }
       ],
       "totalAmount": 899,
       "totalItems": 1,
       "user": {
         "email": "sachin@gmail.com",
-        "password": "123",
+        "password": "Sachin@123",
         "addresses": [
           {
-            "name": "Sachin",
+            "name": "Sachin ",
             "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "94 sarkhej",
-            "city": "Ahmedabad",
-            "State": "Gujarat",
+            "phone": "12312323232",
+            "street": "dholka road",
+            "city": "ahmedabad",
+            "state": "GUJARAT",
             "pinCode": "382210"
-          },
-          {
-            "name": "Chavda",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "Sarkhej",
-            "city": "Gandhinagar",
-            "State": "Gujarat",
-            "pinCode": "123489"
           }
         ],
         "id": 1
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Sachin",
+        "name": "Sachin ",
         "email": "sachin@gmail.com",
-        "phone": "1234567890",
-        "street": "94 sarkhej",
-        "city": "Ahmedabad",
-        "State": "Gujarat",
+        "phone": "12312323232",
+        "street": "dholka road",
+        "city": "ahmedabad",
+        "state": "GUJARAT",
         "pinCode": "382210"
       },
       "status": "pending",
       "id": 1
-    },
-    {
-      "items": [
-        {
-          "title": "Samsung Universe 9",
-          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-          "price": 1249,
-          "discountPercentage": 15.46,
-          "rating": 4.09,
-          "stock": 36,
-          "brand": "Samsung",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/3/1.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 3
-        },
-        {
-          "title": "OPPOF19",
-          "description": "OPPO F19 is officially announced on April 2021.",
-          "price": 280,
-          "discountPercentage": 17.91,
-          "rating": 4.3,
-          "stock": 123,
-          "brand": "OPPO",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/4/1.jpg",
-            "https://i.dummyjson.com/data/products/4/2.jpg",
-            "https://i.dummyjson.com/data/products/4/3.jpg",
-            "https://i.dummyjson.com/data/products/4/4.jpg",
-            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 4
-        }
-      ],
-      "totalAmount": 1529,
-      "totalItems": 2,
-      "user": {
-        "email": "sachin@gmail.com",
-        "password": "123",
-        "addresses": [
-          {
-            "name": "Sachin",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "94 sarkhej",
-            "city": "Ahmedabad",
-            "State": "Gujarat",
-            "pinCode": "382210"
-          },
-          {
-            "name": "Chavda",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "Sarkhej",
-            "city": "Gandhinagar",
-            "State": "Gujarat",
-            "pinCode": "123489"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Chavda",
-        "email": "sachin@gmail.com",
-        "phone": "1234567890",
-        "street": "Sarkhej",
-        "city": "Gandhinagar",
-        "State": "Gujarat",
-        "pinCode": "123489"
-      },
-      "status": "pending",
-      "id": 2
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 1,
-          "id": 3
-        },
-        {
-          "quantity": 1,
-          "user": 1,
-          "id": 4
-        }
-      ],
-      "totalAmount": null,
-      "totalItems": 2,
-      "user": {
-        "email": "sachin@gmail.com",
-        "password": "123",
-        "addresses": [
-          {
-            "name": "Sachin",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "94 sarkhej",
-            "city": "Ahmedabad",
-            "State": "Gujarat",
-            "pinCode": "382210"
-          },
-          {
-            "name": "Chavda",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "Sarkhej",
-            "city": "Gandhinagar",
-            "State": "Gujarat",
-            "pinCode": "123489"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Sachin",
-        "email": "sachin@gmail.com",
-        "phone": "1234567890",
-        "street": "94 sarkhej",
-        "city": "Ahmedabad",
-        "State": "Gujarat",
-        "pinCode": "382210"
-      },
-      "status": "pending",
-      "id": 3
-    },
-    {
-      "items": [
-        {
-          "quantity": 2,
-          "user": 1,
-          "id": 3
-        }
-      ],
-      "totalAmount": null,
-      "totalItems": 2,
-      "user": {
-        "email": "sachin@gmail.com",
-        "password": "123",
-        "addresses": [
-          {
-            "name": "Sachin",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "94 sarkhej",
-            "city": "Ahmedabad",
-            "State": "Gujarat",
-            "pinCode": "382210"
-          },
-          {
-            "name": "Chavda",
-            "email": "sachin@gmail.com",
-            "phone": "1234567890",
-            "street": "Sarkhej",
-            "city": "Gandhinagar",
-            "State": "Gujarat",
-            "pinCode": "123489"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Sachin",
-        "email": "sachin@gmail.com",
-        "phone": "1234567890",
-        "street": "94 sarkhej",
-        "city": "Ahmedabad",
-        "State": "Gujarat",
-        "pinCode": "382210"
-      },
-      "status": "pending",
-      "id": 4
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 2,
-          "id": 2
-        }
-      ],
-      "totalAmount": 899,
-      "totalItems": 1,
-      "user": {
-        "email": "demo@gmail.com",
-        "password": "Demo@123",
-        "addresses": [
-          {
-            "name": "Demo",
-            "email": "demo@gmail.com",
-            "phone": "12312323232",
-            "street": "TO. JAMBU TA. LIMBDI DIST. SURENDRANAGAR",
-            "city": "Surendranagar",
-            "State": "Gujarat",
-            "pinCode": "363421"
-          }
-        ],
-        "id": 2
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Demo",
-        "email": "demo@gmail.com",
-        "phone": "12312323232",
-        "street": "TO. JAMBU TA. LIMBDI DIST. SURENDRANAGAR",
-        "city": "Surendranagar",
-        "State": "Gujarat",
-        "pinCode": "363421"
-      },
-      "status": "pending",
-      "id": 5
-    },
-    {
-      "items": [
-        {
-          "quantity": 2,
-          "user": 3,
-          "id": 1
-        }
-      ],
-      "totalAmount": null,
-      "totalItems": 2,
-      "user": {
-        "email": "meet@gmail.com",
-        "password": "Meet@123",
-        "addresses": [
-          {
-            "name": "Meet Chavda",
-            "email": "meet@gmail.com",
-            "phone": "9173095336",
-            "street": "Sarkhej",
-            "city": "ahmedabad",
-            "State": "GUJARAT",
-            "pinCode": "382210"
-          }
-        ],
-        "id": 3
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Meet Chavda",
-        "email": "meet@gmail.com",
-        "phone": "9173095336",
-        "street": "Sarkhej",
-        "city": "ahmedabad",
-        "State": "GUJARAT",
-        "pinCode": "382210"
-      },
-      "status": "pending",
-      "id": 6
     }
   ]
 }
