@@ -2337,7 +2337,8 @@
   "users": [
     {
       "email": "sachin@gmail.com",
-      "password": "Sachin@123",
+      "password": "123",
+      "name": "Sachin ",
       "addresses": [
         {
           "name": "Sachin ",
@@ -2350,6 +2351,13 @@
         }
       ],
       "id": 1
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "Demo@123",
+      "name": "Demo",
+      "addresses": [],
+      "id": 2
     }
   ],
   "cart": [],

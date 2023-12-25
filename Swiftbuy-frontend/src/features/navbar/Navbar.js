@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import swiftBuyLogo from "../../assets/sb-logo.png";
 import { useSelector } from "react-redux";
 import { selectItems } from "../cart/cartSlice";
+import UserProfileButton from "../user/components/UserProfileButton";
 
 const user = {
   name: "Tom Cook",
@@ -89,7 +90,7 @@ function NavBar({ children }) {
                           />
                         </button>
                       </Link>
-                      {items.length>0 && (
+                      {items.length > 0 && (
                         <span className="inline-flex items-center rounded-md mb-7 -ml-3 bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
                           {items.length}
                         </span>
@@ -98,13 +99,14 @@ function NavBar({ children }) {
                       {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
                         <div>
-                          <Menu.Button className="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                          <Menu.Button className="flex max-w-xs items-center rounded-lg bg-gray-800 text-sm  ">
                             <span className="sr-only">Open user menu</span>
-                            <img
+                            {/* <img
                               className="h-8 w-8 rounded-full"
                               src={user.imageUrl}
                               alt=""
-                            />
+                            /> */}
+                            <UserProfileButton />
                           </Menu.Button>
                         </div>
                         <Transition
@@ -204,7 +206,7 @@ function NavBar({ children }) {
                         />
                       </button>
                     </Link>
-                    {items.length>0 && (
+                    {items.length > 0 && (
                       <span className="inline-flex items-center rounded-md bg-red-50 mb-7 -ml-3 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
                         {items.length}
                       </span>
