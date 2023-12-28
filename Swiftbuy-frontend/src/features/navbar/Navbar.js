@@ -18,13 +18,13 @@ const user = {
     "https://portfolio-web-henna-zeta.vercel.app/static/media/About-img.bf5f4ed669dbeb5a2723.jpg",
 };
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
+  { name: "Dashboard", to: "/", current: true },
+  { name: "Product", to: "/", current: false },
 ];
 const userNavigation = [
   { name: "My Profile", link: "/profile" },
   { name: "My Orders", link: "/orders" },
-  { name: "Sign out", link: "/login" },
+  { name: "Sign out", link: "/logout" },
 ];
 
 function classNames(...classes) {
@@ -59,9 +59,9 @@ function NavBar({ children }) {
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
                         {navigation.map((item) => (
-                          <a
+                          <Link
                             key={item.name}
-                            href={item.href}
+                            to={item.to}
                             className={classNames(
                               item.current
                                 ? "bg-gray-900 text-white"
@@ -71,7 +71,7 @@ function NavBar({ children }) {
                             aria-current={item.current ? "page" : undefined}
                           >
                             {item.name}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
