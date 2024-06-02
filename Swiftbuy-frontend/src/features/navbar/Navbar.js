@@ -10,6 +10,7 @@ import swiftBuyLogo from "../../assets/sb-logo.png";
 import { useSelector } from "react-redux";
 import { selectItems } from "../cart/cartSlice";
 import UserProfileButton from "../user/components/UserProfileButton";
+import { selectLoggedInUser } from "../auth/authSlice";
 
 const user = {
   name: "Tom Cook",
@@ -18,8 +19,9 @@ const user = {
     "https://portfolio-web-henna-zeta.vercel.app/static/media/About-img.bf5f4ed669dbeb5a2723.jpg",
 };
 const navigation = [
-  { name: "Dashboard", to: "/", current: true },
-  { name: "Product", to: "/", current: false },
+  { name: "Dashboard", link: "/", user: true },
+  { name: "Team", link: "/", user: true },
+  { name: "admin", link: "/admin", admin: true },
 ];
 const userNavigation = [
   { name: "My Profile", link: "/profile" },
@@ -33,6 +35,7 @@ function classNames(...classes) {
 
 function NavBar({ children }) {
   const items = useSelector(selectItems);
+  const user = useSelector(selectLoggedInUser)
   return (
     <>
       <div className="min-h-full">
@@ -58,21 +61,23 @@ function NavBar({ children }) {
                     </div>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
-                        {navigation.map((item) => (
-                          <Link
-                            key={item.name}
-                            to={item.to}
-                            className={classNames(
-                              item.current
-                                ? "bg-gray-900 text-white"
-                                : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                              "rounded-md px-3 py-2 text-sm font-medium"
-                            )}
-                            aria-current={item.current ? "page" : undefined}
-                          >
-                            {item.name}
-                          </Link>
-                        ))}
+                        {navigation.map((item) =>
+                          item[user.role] ? (
+                            <Link
+                              key={item.name}
+                              to={item.link}
+                              className={classNames(
+                                item.current
+                                  ? "bg-gray-900 text-white"
+                                  : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                                "rounded-md px-3 py-2 text-sm font-medium"
+                              )}
+                              aria-current={item.current ? "page" : undefined}
+                            >
+                              {item.name}
+                            </Link>
+                          ) : null
+                        )}
                       </div>
                     </div>
                   </div>

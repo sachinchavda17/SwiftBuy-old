@@ -2339,6 +2339,7 @@
       "email": "sachin@gmail.com",
       "password": "123",
       "name": "Sachin ",
+      "role": "user",
       "addresses": [
         {
           "name": "Sachin ",
@@ -2356,8 +2357,17 @@
       "email": "demo@gmail.com",
       "password": "Demo@123",
       "name": "Demo",
+      "role": "user",
       "addresses": [],
       "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "name": "Admin",
+      "addresses": [],
+      "role": "admin",
+      "id": 3
     }
   ],
   "cart": [
